@@ -99,7 +99,7 @@ def get_vendors():
         if os.access('%s/%s' % (GIT, key), os.R_OK):
             print 'Repository %s/%s' % (GIT, key)
             # pull git repository
-            os.system('cd %s && cd %s && git pull' % (GIT, key))
+            os.system('cd %s && cd %s && git pull origin master' % (GIT, key))
         else:
             # clone git repository
             os.system('cd %s && git clone %s %s' % (GIT, value, key))
