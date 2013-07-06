@@ -1,0 +1,12 @@
+[submodule "vendors/bootstrap"]
+	path = vendors/bootstrap
+	url = git://github.com/twitter/bootstrap.git
+[submodule "vendors/boilerplate"]
+	path = vendors/boilerplate
+	url = git://github.com/h5bp/html5-boilerplate.git
+[submodule "vendors/font-awesome"]
+	path = vendors/font-awesome
+	url = git://github.com/FortAwesome/Font-Awesome.git
+[submodule "vendors/retinajs"]
+	path = vendors/retinajs
+	url = git://github.com/imulus/retinajs.git
