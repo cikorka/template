@@ -8,6 +8,7 @@ Combine HTML5 Boilerplate &amp; Twitter Bootstrap &amp; Font Awesome &amp; Retin
 
 ## Install
 	git clone https://github.com/cikorka/template.git template
+	cd template
 	git submodule init
 	git submodule update
 
